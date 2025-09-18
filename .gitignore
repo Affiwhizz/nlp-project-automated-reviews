@@ -76,7 +76,11 @@ docs/_build/
 target/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Colab-specific
+*.ipynb_save
 
 # IPython
 profile_default/
